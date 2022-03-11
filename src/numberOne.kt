@@ -3,7 +3,7 @@ fun main() {
     var sum = 0F
     var i = 0
     var cuant = 0F
-    var size = arr.size
+    val size = arr.size
     while (i < size) {
         if (i%2==0){
             sum += arr[i]
